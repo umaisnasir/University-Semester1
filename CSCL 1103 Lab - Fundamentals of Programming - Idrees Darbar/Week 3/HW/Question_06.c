@@ -1,0 +1,1 @@
+//Write a program to print the size of char, float, double and long double data types in C

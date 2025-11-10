@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Web Page Example</title>
+
+  <!-- 🎨 Internal CSS -->
+  <style>
+    /* Reset some default browser styling */
+    /* Star means atrributes applies to -- */
+
+    * {    
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+    }
+
+    /* Applies to all nav ul tags */
+    nav ul {    
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Applies to all nav li tags */
+    nav li {
+      margin: 0 20px;
+    }
+
+    /* Applies to all nav a tags */
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Pseudo-Class // Applies to anchor tag // where nav is called */
+    nav a:hover {
+      color: #ffcc00; /* gold hover effect */
+    }
+
+    /* Main Content */
+    main {
+      padding: 40px;
+      background-color: #f9f9f9;
+      min-height: 60vh;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #333;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ffcc00;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    section p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 🧭 Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🧩 Main Content Area -->
+  <main>
+    <section id="home">
+      <h2>Welcome to My Website</h2>
+      <p>This website demonstrates the use of HTML5 semantic tags like nav, main, section, and footer with internal CSS styling.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of passionate developers who love creating clean, modern, and user-friendly web applications.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We offer web design, front-end development, and responsive website optimization for all devices.</p>
+    </section>
+  </main>
+
+  <!-- ⚓ Footer -->
+  <footer>
+    <p>&copy; 2025 My Website | All Rights Reserved | <a href="#privacy">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>

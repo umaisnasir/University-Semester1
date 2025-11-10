@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Web Page Example</title>
+
+  <!-- 🎨 Internal CSS -->
+  <style>
+    /* Reset some default browser styling */
+    /* Star means atrributes applies to -- */
+
+    * {    
+      margin: 0; 
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #333; /* deals with the background color of the navigation bar */
+      color: white;  /* deals with the text color */
+      padding: 15px 0; /* deals with the vertical padding of nav bar */
+    }
+
+    /* Applies to all nav ul tags */
+    nav ul {    
+      list-style: none; /* removes bullet points of the content */
+      display: flex; /*Makes the content horizontally / positions everything in same line*/
+      justify-content:center; /* moves the contents (Home, about, contact..., to left right or centre ) */
+    }
+
+    /* Applies to all nav li tags */
+    nav li {
+      margin: 0 40px; /*increases spacing between the contents of nav bar */
+    }
+
+    /* Applies to all nav a tags */
+    nav a {
+      color: white; /* changes colour of content/text of nav bar */
+      text-decoration: none; /* removes any effects ( underlines all) */
+      font-weight: bold; /* makes text bold */
+    }
+
+    /* Pseudo-Class // Applies to anchor tag // where nav is called */
+    nav a:hover {
+      color: #ffcc00; /* gold hover effect */
+    }
+
+    /* Main Content */
+    main {
+      padding: 40px; /* corner of screen -navigation bar and footer */
+      background-color: #f9f9f9;
+      min-height: 60vh; /* device dependent */
+    }
+
+    section {
+      margin-bottom: 40px; /* deals with space between the sections */
+      padding: 20px; /* deals with padding of every section */
+      background: white; /* deals with background color of the sections */
+      border-radius: 8px; /* deals with the corner styling of the sections */
+      box-shadow: 0 0 8px rgba(0,0,0,0.1); /* deals with the outer shadow of the sections */
+    }
+
+    section h2 {
+      color: #333; /* deals with the text color (h2) inside sections */
+      margin-bottom: 10px; /* deals with the spacing between h2 and p */
+      border-bottom: 2px solid #ffcc00; /* deals with underline thickness below h1s */
+      display: inline-block; /* deals with the horizontal length of the underline itself */
+      padding-bottom: 5px; /* deals with spacing between underline and h1 */
+    }
+
+    section p {
+      color: #555; /* deals with the text color of paragraph */
+      line-height: 1.6; /* deals between the spacing b/w the bottom and below the underline */
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333; /* deals with the bg color of the footer */
+      color: white; /* deals with the text color */
+      text-align: center; /* aligns the text to the center */
+      padding: 20px 0; /* deals with padding of the footer (equal space bw the text) */
+    }
+
+    footer a {
+      color: #ffcc00; /* deals with the color of "priacy policy" */
+      text-decoration: none; /* deals with any kind of decor on text */
+    }
+
+    footer a:hover {
+      text-decoration: underline; /* deals with mouse hover in anchor tag */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 🧭 Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🧩 Main Content Area -->
+  <main>
+    <section id="home">
+      <h2>Welcome to My Website</h2>
+      <p>This website demonstrates the use of HTML5 semantic tags like nav, main, section, and footer with internal CSS styling.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of passionate developers who love creating clean, modern, and user-friendly web applications.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We offer web design, front-end development, and responsive website optimization for all devices.</p>
+    </section>
+  </main>
+
+  <!-- ⚓ Footer -->
+  <footer>
+    <p>&copy; 2025 My Website | All Rights Reserved | <a href="#privacy">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>
