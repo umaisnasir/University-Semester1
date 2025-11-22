@@ -1,0 +1,113 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+}
+
+.cA{
+
+    background-color: violet;
+    border-radius: 12px;
+    padding: 15px;
+    
+    
+}
+
+.cB{
+
+    background-color: rgb(125, 145, 244);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 2px;
+    
+    
+}
+
+.cC{
+
+    background-color: rgb(125, 244, 220);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 2px;
+    
+    
+}
+
+.cC em {
+    background-color: teal;
+    color: yellow;
+    border-radius: 5px;
+}
+
+.cD{
+
+    background-color: rgb(211, 244, 151);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 2px;
+    
+    
+}
+
+.cE{
+
+    background-color: rgb(173, 244, 125);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 2px;
+    
+    
+}
+
+.cF{
+
+    background-color: rgb(245, 228, 143);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 2px;
+    
+    
+}
+
+.cG{
+
+    background-color: rgb(245, 196, 143);
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 2px;
+    
+    
+}
+
+.cG img{
+    width: 150px;
+    height: 200px;
+}
+
+.cH{
+
+    background-color: rgb(181, 97, 97);
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2px;
+    
+    
+}
+
+.tab{
+
+    background-color: rgb(137, 129, 153);
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2px;
+    
+    
+}
+
+.tab td,th{
+
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 8px;
+    margin: 0px;
+
+}

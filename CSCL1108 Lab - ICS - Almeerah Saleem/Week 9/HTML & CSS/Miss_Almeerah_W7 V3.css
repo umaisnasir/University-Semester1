@@ -1,0 +1,79 @@
+*body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.classA{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.classB{
+    background-color: rgb(22, 160, 160);
+    padding: 20px;
+}
+
+.classC{
+    background-color:blueviolet;
+    padding: 20px;
+}
+
+.classD{
+    background-color: rgb(227, 227, 76);
+    padding: 20px;
+}
+
+.classE{
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+.classF{
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+.classE{
+    background-color: rgb(126, 244, 107);
+    padding: 20px;
+}
+
+.classF{
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.classG{
+    background-color: rgb(247, 39, 39);
+    padding: 40px;
+
+}
+
+.classG img{
+    width: 200px;
+    height: 200px;
+}
+
+.classH{
+    background-color: darkgoldenrod;
+    padding: 20px;
+}
+
+.tab{
+    background-color: cornsilk;
+    padding: 40px;
+    border-spacing: 15px;
+    border-collapse: separate;
+}
+
+.tab, .tab th, .tab td {
+    border: 8px solid black;
+}
+
+
+
+
+
+
+
+

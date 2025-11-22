@@ -1,4 +1,3 @@
-// Write a C-Program to check whether a number entered by the user is zero or not.
 
 #include <stdio.h>
 

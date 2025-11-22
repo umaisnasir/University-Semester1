@@ -4,7 +4,7 @@
 
 int main (void){
 
-    int loop_counter = 1;
+    int loop_counter;
     
 
     for (loop_counter = 1; loop_counter <= 19; loop_counter += 2){

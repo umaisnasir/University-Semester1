@@ -1,0 +1,70 @@
+body{
+    font-family: Trebuchet;
+    background-color: azure;
+
+}
+
+header{
+    background-color: rgb(196, 174, 219);
+    border-radius: 20px;
+    padding: 25px;
+    
+}
+
+header h2{
+    font-family: Verdana;
+    font-weight: 20;
+
+}
+
+.BK{
+    background-color: chocolate;
+    padding: 45px;
+    border-radius: 30px;
+    width: 20%
+}
+
+table{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+thead, tbody{
+    background-color: aqua;
+}
+
+th, td {
+    border: 2px solid rgb(249, 19, 19);
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.two{
+    background-color: rgb(86, 215, 235);
+    padding: 10px;
+    border-radius: 30px;
+    width: 7%
+
+}
+
+.three{
+    background-color: rgb(86, 215, 235);
+    padding: 10px;
+    border-radius: 30px;
+    width: 7%
+
+}
+
+.three li{
+    text-align: left;
+}
+
+mark {
+    background-color: rgb(139, 139, 218);
+    border-radius: 5px;
+}
+
+
+

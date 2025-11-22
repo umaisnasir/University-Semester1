@@ -2,7 +2,6 @@
 // different units (e.g., length, temperature, currency) based on the user's choice from a menu. Use a switch-case
 // statement to implement the conversions.
 
-
 #include <stdio.h>
 
 int main (void){

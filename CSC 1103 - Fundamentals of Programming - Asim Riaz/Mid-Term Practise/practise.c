@@ -80,35 +80,47 @@
 
 
 
-// #include <stdio.h>
-// int main (){
-//     int count, n = 5, inc = 1, i;
-//     int spc = n - 1;
-    
-//     for(count = 1; count <= 9; count++){
-        
-//         int letter = 82 + spc;  
+// #include<stdio.h>
 
-//         for(i = 1; i <= spc; i++){
-//             printf("-");
-//         }
-        
-//         for(i = 1; i <= (9 - 2*spc); i++){
-//             printf("%c", letter);
-//             letter++;
+// int main (void){
+
+//     int elements = 5;
+//     int space = elements - 1;
+//     int inc = 1;
+//     int row, col;
+//     int letter;
+
+//     for (row = 1; row <= 9; row++){
+
+//         letter = 82 + space;
+
+//         for (col = 1; col <= elements; col++){
+
+            
+
+//             if (space >= col){
+//                 printf(" ");
+
+//             }
+//             else{
+//                 printf("%c", letter);
+//                 letter++;
+//             }
+
 //         }
 
 //         printf("\n");
-//         if(count == 5){
+
+//         if (elements == 9){
 //             inc = -1;
 //         }
 
-//         spc = spc - inc;
+//         elements += inc;
+//         space -= inc;
+
 //     }
 
-//     return 0;
 // }
-
 
 
 // Write a sentinel loop program that continuously takes integer input from the user until the user enters 0.

@@ -93,3 +93,48 @@
 //     return 0;
 // }
 
+
+
+
+// #include<stdio.h>
+
+// int main (void){
+
+//     int elements = 5;
+//     int space = elements - 1;
+//     int inc = 1;
+//     int row, col;
+//     int letter;
+
+//     for (row = 1; row <= 9; row++){
+
+//         letter = 82 + space;
+
+//         for (col = 1; col <= elements; col++){
+
+            
+
+//             if (space >= col){
+//                 printf(" ");
+
+//             }
+//             else{
+//                 printf("%c", letter);
+//                 letter++;
+//             }
+
+//         }
+
+//         printf("\n");
+
+//         if (elements == 9){
+//             inc = -1;
+//         }
+
+//         elements += inc;
+//         space -= inc;
+
+//     }
+
+// }
+

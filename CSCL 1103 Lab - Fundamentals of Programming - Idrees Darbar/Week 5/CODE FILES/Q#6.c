@@ -25,10 +25,7 @@ int main(void) {
             result = num1 / num2;
             printf("Division is: %d\n", result);
             break;
-        case '%':
-            result = num1 % num2;
-            printf("Remainder is: %d\n", result);
-            break;
+        
         case '-':
             result = num1 - num2;
             printf("Subtraction is: %d\n", result);
@@ -40,6 +37,7 @@ int main(void) {
         default:
             printf("Invalid operator.\n");
     }
+
 
     return 0;
 }

@@ -11,7 +11,7 @@ int main() {
         for (int position = 1; position <= starCount; position++) {
             
             if (spaceCount >= position) {
-                printf("-");
+                printf(" ");
             } else {
                 printf("*");
             }

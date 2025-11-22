@@ -10,8 +10,9 @@ int main (void){
     scanf("%d", &User_Input);
 
     if (User_Input % 3 == 0 || User_Input % 7 == 0){
-        printf("The number %d is the multiple of 3!\n", User_Input);
+        printf("The number %d is the multiple of 3 and 7\n", User_Input);
     }
+    
     else{
         printf("The number %d is NOT a multiple of 3 or 7.\n", User_Input);
     }

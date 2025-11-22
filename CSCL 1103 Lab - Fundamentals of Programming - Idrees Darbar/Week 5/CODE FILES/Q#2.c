@@ -8,7 +8,7 @@ int main (void){
 
     int test_score;
 
-    printf("Enter the marks (for e.g 90/80/70/60/50)\n");
+
 
     printf("Enter the test score (1-100): ");
     scanf("%d", &test_score);
@@ -37,7 +37,7 @@ int main (void){
         break;
 
     default:
-        printf("Enter valid marks");
+        printf("Invalid Marks");
     
     }
 

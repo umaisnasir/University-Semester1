@@ -25,7 +25,7 @@ int main (void){
 
         printf("The reversed number is: %d\n", Reversed);
 
-    } while (User_input < 1);
+    } while (User_input < 1);  // we have to run this loop only once 
 
     return 0;
 }

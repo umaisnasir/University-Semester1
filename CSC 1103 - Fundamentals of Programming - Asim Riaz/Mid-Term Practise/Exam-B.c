@@ -64,40 +64,44 @@
 // }
 
 
-// #include <stdio.h>
+// #include<stdio.h>
 
-// int main (){
-//     int count, n = 5, inc = 1, i;
-//     int spc = n - 1;
-//     int digit;
-    
-//     for(count = 1; count <= 9; count++){
+// int main (void){
 
-//         if (count <= 5){
+//     int elements = 5;
+//     int space = elements - 1;
+//     int inc = 1;
+//     int row, col;
+//     int letter;
 
-//             digit = 6 - count;
-//         }
-//         else{
-//             digit = count - 4;
-//         }
-        
-        
-//         for(i = 1; i <= spc; i++){
-//             printf(" ");
-//         }
-        
-//         for(i = 1; i <= (9 - 2*spc); i++){
-//             printf("%d", digit);
-//             digit++;
+//     for (row = 1; row <= 9; row++){
+
+//         letter = 82 + space;
+
+//         for (col = 1; col <= elements; col++){
+
+            
+
+//             if (space >= col){
+//                 printf(" ");
+
+//             }
+//             else{
+//                 printf("%c", letter);
+//                 letter++;
+//             }
+
 //         }
 
 //         printf("\n");
-//         if(count == 5){
+
+//         if (elements == 9){
 //             inc = -1;
 //         }
 
-//         spc = spc - inc;
+//         elements += inc;
+//         space -= inc;
+
 //     }
 
-//     return 0;
 // }
