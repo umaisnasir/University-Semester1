@@ -13,7 +13,7 @@ int square(int number);
 
 int main(void) {
 
-   for (int x = 1; x <= 10; ++x) {
+   for (int x = 1; x <=10; x++) {
 
       // The program jumps from the main function to the start of the square function's definition.
       // 'x' (the argument) is passed to the 'square' function

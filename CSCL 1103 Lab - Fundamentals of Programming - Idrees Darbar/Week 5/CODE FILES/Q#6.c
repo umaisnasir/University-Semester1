@@ -25,7 +25,6 @@ int main(void) {
             result = num1 / num2;
             printf("Division is: %d\n", result);
             break;
-        
         case '-':
             result = num1 - num2;
             printf("Subtraction is: %d\n", result);

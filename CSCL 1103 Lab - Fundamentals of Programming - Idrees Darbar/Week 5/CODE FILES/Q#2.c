@@ -27,7 +27,6 @@ int main (void){
         printf("Grade : C\n");
         break;
 
-
     case 60:
         printf("Grade : D\n");
         break;

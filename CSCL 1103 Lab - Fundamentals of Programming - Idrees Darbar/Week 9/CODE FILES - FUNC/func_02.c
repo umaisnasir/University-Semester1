@@ -8,7 +8,7 @@
 int power(int base, int exponent) {
     int result = 1;
 
-    for(int i = 0; i < exponent; i++) {
+    for(int i = 0; i < exponent; i++) {    // race-to-power logic.
         result = result * base;  
     }
 
@@ -27,8 +27,8 @@ int main() {
 
     
     int result = power(base, exponent);    // Calling the power function and printing the result.
-                                           // The line 29 will jump to the function above.
-    printf("%d raised to %d is: %d\n", base, exponent, result);
+                                           // The line 29 will jump to the function defination above.
+    printf("%d raised to %d is: %d\n", base, exponent, result);    // base will remain constant even after the mathematical operation has been performed.
 
     return 0;
 }

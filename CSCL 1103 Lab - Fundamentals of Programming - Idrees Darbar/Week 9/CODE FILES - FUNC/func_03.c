@@ -25,6 +25,14 @@ int main() {
     printf("Fibonacci(%d) = %d\n", n, fibonacci(n));  // first &d refers to the user-input
                                                       // fibonacci function is being called 
 
+    for (int i = 0; i <= n; i++){    // this is just for prinitng the whole series.
+
+        printf("The series is: %d", fibonacci(i));
+
+    }                                                  
+    
+                                                      
+
     return 0;
 }
 

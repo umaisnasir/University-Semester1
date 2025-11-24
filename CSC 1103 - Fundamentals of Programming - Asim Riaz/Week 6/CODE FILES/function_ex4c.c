@@ -19,9 +19,8 @@ int main(void) {
    printf("Enter any integers: ");
    scanf("%d", &number4);
    
-   // number1, number2 and number3 are arguments 
-   // to the maximum function call
-   //printf("Maximum is: %d\n", maximum(maximum(number1, number2), maximum(number3, number4)));
+// same statement as the previous code, but the writing style is different.   
+
    printf("Maximum is: %d\n",
       maximum(
          maximum(number1, number2),

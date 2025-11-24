@@ -8,6 +8,7 @@ int multiply(int a, int b) {
     return a * b;
 }
 
+
 int main() {
     int num1, num2, result;
 
@@ -15,8 +16,8 @@ int main() {
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
 
-                                    // the program will jump from line 19 to line 7
-    result = multiply(num1, num2);  // in result whatever is happening in line 8 will be stored.
+                                    // the program will jump from this line to wherever the function is defined
+    result = multiply(num1, num2);  // in result whatever is happening in the function defination line will be stored.
 
     
     printf("Product = %d\n", result);

@@ -10,7 +10,7 @@ int main()
     while (str[index] != '\0')
     {
         
-        if (index == 0){
+        if (index == 0){    // For making the first character uppercase.
             cha = str[index]-32;
             str[index] = cha;
 
@@ -18,7 +18,7 @@ int main()
         }
         
         
-        if(str[index] == ' '){
+        if(str[index] == ' '){  // for making the letter uppercase which comes after empty space.
             
             cha = str[index + 1]-32;
 
