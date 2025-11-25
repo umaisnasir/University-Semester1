@@ -1,41 +1,45 @@
+// Write a C program with a function findMax that finds and returns the maximum value in an array
+// of integers. In the main function, take an array of integers as input, call the findMax function, and
+// print the maximum value.
+
+
 #include <stdio.h>
 
-// FUNCTION TO FIND MAX VALUE
-int findmax(int arr[], int size) {
-    int max = arr[0];   // assume first element is max
-
-    for (int i = 1; i < size; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
+int findMax(int arr[], int size){
+    
+    int max = arr[0];
+    
+    for (int i = 1; i < size; i++){
+        if (arr[i] > max){
+            max=arr[i];
         }
+        
     }
-
+    
     return max;
+    
 }
 
-int main() {
-
-    int N = 0;
-    int numarray[1000];
-    int num;
-
-    printf("Enter numbers (enter -1 to stop):\n");
-
-    while (1) {
-        printf("Enter your number:\n");
-        scanf("%d", &num);
-
-        if (num == -1) {
-            break;
-        }
-
-        numarray[N] = num;   // store number
-        N++;                 // increase size
+int main (void){
+    
+    int index;
+    
+    int ReturnedValue;
+    
+    printf("Enter the size of the array: ");
+    scanf("%d", &index);
+    
+    int Array[index];
+    
+    for (int i = 0; i < index; i++){
+        
+        printf("Enter the number: ");
+        scanf("%d", &Array[i]);
+        
     }
-
-    int maximum = findmax(numarray, N);
-
-    printf("\nThe maximum value is: %d\n", maximum);
-
+    
+    ReturnedValue = findMax(Array, index);
+    printf("The maxmimum value is: %d\n", ReturnedValue);
+    
     return 0;
 }
