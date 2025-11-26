@@ -9,7 +9,7 @@ int main()
 
     
     
-    while (str[index] != '\0')  // while last array index reached, run the code...
+    while (str[index] != '\0')  // loop through each character until the end of string.
     {
         
         if(str[index] != ' '){  // if a certain array element = empty space
