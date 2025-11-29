@@ -285,3 +285,35 @@
 //         jump++;
 //     }
 // }
+
+#include<stdio.h>
+
+int main (void){
+
+    int elements = 10;
+    int space = elements - 1;
+    int inc = 1;
+    int row, col;
+
+    for (row = 1; row <= 10; row++){
+        for (col = 1; col <= elements; col++){
+            if (space >= col){
+                printf(" ");
+            }
+            else{
+                printf("*");
+            }
+            
+        }
+
+        printf("\n");
+
+            
+        elements += inc;
+        space -= inc;
+
+    }
+
+    
+
+}
