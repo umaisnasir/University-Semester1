@@ -37,5 +37,4 @@ int main (void){
         printf("%d ", Array[i]);
     }
 
-
 }

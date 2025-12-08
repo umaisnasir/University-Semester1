@@ -22,23 +22,24 @@ int findMax(int arr[], int size){
 
 int main (void){
     
-    int index;
+    int ArraySize;
     
     int ReturnedValue;
     
     printf("Enter the size of the array: ");
-    scanf("%d", &index);
+    scanf("%d", &ArraySize);
     
-    int Array[index];
+    int Array[ArraySize];
     
-    for (int i = 0; i < index; i++){
+    for (int i = 0; i < ArraySize; i++){
         
         printf("Enter the number: ");
         scanf("%d", &Array[i]);
         
     }
     
-    ReturnedValue = findMax(Array, index);
+    ReturnedValue = findMax(Array, ArraySize);  // index contains the number of elements (because the user typed it).
+                                            // The function must know which array to search for the maximum value.
     printf("The maxmimum value is: %d\n", ReturnedValue);
     
     return 0;

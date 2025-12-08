@@ -1,0 +1,16 @@
+// fig07_01.c
+// Using the & and * pointer operators.
+#include <stdio.h>
+
+int main(void) {
+   int a = 7;
+   int *aPtr = &a; // set aPtr to the address of a
+
+   printf("Address of a is %p\nValue of aPtr is %p\n\n", &a, aPtr);  // both are technically the same.
+
+   printf("Value of a is %d\nValue of *aPtr is %d\n\n", a, *aPtr);  // *aPtr (derefrenced)
+
+   printf("Showing that * and & are complements of each other\n");  
+
+   printf("&*aPtr = %p\n*&aPtr = %p\n", &*aPtr, *&aPtr); // both are technically the same.
+} 

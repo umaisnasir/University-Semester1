@@ -18,7 +18,7 @@ int power(int base, int exponent) {
 int main() {
     int base, exponent;
 
-    
+
     printf("Enter base: ");
     scanf("%d", &base);
 

@@ -32,7 +32,7 @@ int main(){
 
         // Go Right
         if((current_index + 1) % num == 0){
-            current_index = current_index  - (num-1);
+            current_index = current_index  - (num -  1);
         }else{
             current_index++;
         }
@@ -54,7 +54,8 @@ int main(){
     for (int i = 0; i < num*num; i++)
     {
            
-        printf("%2d ", magicsquare[i]);    
+        printf("%3d ", magicsquare[i]);
+
         if((i+1) % num == 0){
             printf("\n");
         }
