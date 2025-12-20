@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello world</h1>
+    <h2>Welcome to java script</h2>
+    <h2>GeeksforGeeks</h2>
+
+    <!-- Finding the HTML Elements by their Id in DOM -->
+    <p id="intro">
+        A Computer Science portal for geeks.
+    </p>
+
+    <p>
+        This example illustrates the <b>getElementById</b> method.
+    </p>
+
+    <p id="demo"></p>
+
+    <button type="button" id="btn">Show paragraph</button>
+
+    <script>
+        // Gets the button element by its ID so a click event can be attached to it
+        const btn = document.getElementById("btn");
+
+        // addEventListener listens for a specific action (here: a click)
+        // When the button is clicked, the arrow function inside runs
+        btn.addEventListener('click', () => {
+
+            // alert() displays a popup message to the user
+            // This confirms that the button was clicked
+            alert('U clicked a button');
+
+            // Select the paragraph with id="intro"
+            // This allows JavaScript to access its text content
+            const element = document.getElementById("intro");
+
+            // innerHTML gets the content inside an HTML element
+            // Here, it inserts text into the paragraph with id="demo"
+
+            // The result is shown on the webpage AFTER the button is clicked
+            document.getElementById("demo").innerHTML =
+                "GeeksforGeeks introduction is: " + element.innerHTML;
+        });
+    </script>
+</body>
+</html>

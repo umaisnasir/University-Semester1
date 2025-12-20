@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JavaScript Example</title>
+</head>
+
+<body>
+
+    <h1>Hello World!</h1>
+    <h3>Welcome to JS!</h3>
+
+    <button id="btn">Show Paragraph</button>
+
+    <script>
+        // Function to add a click event to the button
+        function greet() {
+
+            // Get the button element by its ID
+            const btn = document.getElementById('btn');
+
+            // Run this code when the button is clicked
+            btn.addEventListener('click', () => {
+                // Show an alert message
+                alert('You clicked the button');
+            });
+        }
+
+        // Call the function
+        greet();
+    </script>
+
+</body>
+</html>

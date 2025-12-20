@@ -1,0 +1,56 @@
+body{
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    display: flex; 
+    align-items: center; /*Verically center (top and bottom - equal spaces)*/
+    justify-content: center; /* aligns all the elements to center*/
+    box-shadow: 0 0 20px rgb(225, 170, 18); /*offset y, offset x, blur-radius color*/
+    border-radius: 8px; 
+    margin: 30px;  /*Outside box - margin*/
+    min-height: 80vh;  /*Vertical height*/
+    Background: linear-gradient(135deg, rgb(72, 211, 155), rgb(195, 128, 218), rgb(224, 200, 81));
+    width: 40%;
+
+}
+
+form {
+
+    text-align: center; /*Aligns the form headings i.e. Name, Email...*/
+
+}
+
+label{
+    color: rgb(0, 0, 0); /*Color of the text label itself*/
+    display: block; /*Elements stack vertically*/
+    margin-bottom: 2px; /*margin b/w the box and the text*/
+    padding: 5px; 
+    font-size: 19px;
+    
+
+}
+
+input, textarea{
+    border: 1px solid black; /*input area's border*/
+    border-radius: 8px; 
+    width: 100%; /* No effect*/
+    padding: 5px;
+}
+
+
+.elementA, .elementB, .elementC, .elementD{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+
+.ElemButton {
+
+    margin-top: 10px;
+   
+}

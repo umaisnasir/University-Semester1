@@ -1,0 +1,68 @@
+body{
+    font-family: Arial;
+    background-color: white;
+
+}
+
+.Periodic_Table {
+    display: grid;
+    grid-template-columns: repeat(18, 74px);
+    gap: 8px;
+    padding: 20px;
+
+}
+
+.element {
+    padding: 8px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+}
+
+.element:hover{
+    cursor: pointer;
+    background-color: rgb(156, 156, 156);
+
+}
+
+.element .AN{
+    display: block;
+    font-size: 15px;
+}
+
+.element .Symbol {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.element .Name{
+    display: block;
+    font-size: 10px;
+}
+
+.element .AR {
+    display: block;
+    font-size: 10px;
+}
+
+/* CATEGORIES */
+
+.metal {
+    background-color: orange;
+}
+
+.nonmetal {
+    background-color: lightgreen;
+}
+
+.noble-gas{
+    background-color: brown;
+}
+
+.metalloid{
+    background-color: rgb(245, 194, 101);
+    
+}

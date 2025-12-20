@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>GeeksforGeeks</h2>
+
+    <!-- Finding the HTML element by its ID -->
+    <p id="intro">A Computer Science portal for geeks.</p>
+
+    <p>This example illustrates the <b>getElementById</b> method.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        // Get the element with id="intro"
+        const element = document.getElementById("intro");
+
+        // [.innerHTML] refers to the content inside the <p> tag (the text)
+        // This line assigns text + the content of the "intro" element
+        // `element.innerHTML` gets the HTML/text inside the element with id="intro"
+        // The "intro" element contains the paragraph text shown above
+
+        document.getElementById("demo").innerHTML =
+            "GeeksforGeeks introduction is: " + element.innerHTML;
+    </script>
+
+</body>
+</html>

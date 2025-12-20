@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="User_Details.css">
+        <script src="User_Details.js"></script>
+    </head>
+
+    <body>
+
+        <!-- input, type, id, name (these are four attributes for an input) -->
+
+        <!-- input = It allows the user to enter data -->
+        <!-- type = tells the browser what kind of input this is -->
+        <!-- id = Gives the input a unique identifier -->
+        <!-- name = Used when the form data is submitted -->
+
+        <div class="container1">
+            
+            <form onsubmit="return ValidateForm()"> <!-- calling the function -->
+                
+                <div class="elementA">
+                    <label for = "name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="elementB">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="elementC">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" name="phone">
+                </div>
+
+                <div class="elementD">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <div class="ElemButton">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>

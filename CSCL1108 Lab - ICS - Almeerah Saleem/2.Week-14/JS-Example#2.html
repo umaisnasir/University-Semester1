@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+
+    <script>
+        // ❌ This code runs before the HTML is loaded
+        // So the elements with id="intro" and id="demo" do not exist yet
+
+        const element = document.getElementById("intro");
+        document.getElementById("demo").innerHTML =
+            "GeeksforGeeks introduction is: " + element.innerHTML;
+    </script>
+</head>
+
+<body>
+
+    <h2>GeeksforGeeks</h2>
+
+    <!-- The id allows JavaScript to find this element -->
+    <p id="intro">A Computer Science portal for geeks.</p>
+
+    <p>This example illustrates the <b>getElementById</b> method.</p>
+
+    <!-- The id allows JavaScript to find this element -->
+    <p id="demo"></p>
+
+</body>
+</html>
